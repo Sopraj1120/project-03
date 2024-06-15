@@ -8,9 +8,7 @@ namespace project_03
 {
     internal class SavingAccount:Account
     {
-        public int AccountNumber;
-        public decimal Balance;
-        public int CustomerID;
+        
 
 
         public SavingAccount(int accountNumber, decimal balance, int customerID)

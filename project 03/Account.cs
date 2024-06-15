@@ -35,6 +35,7 @@ namespace project_03
         public void Withdraw(double percentage)
         {
             Balance = Balance - (Balance * Convert.ToDecimal(percentage));
+            
         }
         public decimal GetBalance()
         {

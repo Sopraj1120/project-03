@@ -13,10 +13,14 @@ namespace project_03
         public decimal Amount;
         public string TransactionType;
         public DateTime Date;
+
+
+
+        public void GetTransactionDetails()
+        {
+
+        }
     }
 
-    public string  GetTransactionDetails()
-    {
-        return;
-    }
+    
 }
